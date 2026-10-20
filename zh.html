@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ECHOBOUND — 媒体资料包</title>
+<meta name="description" content="叠加异常状态，然后引爆。在敌人身上叠加灼烧、冻结、感电、出血与刻印，在连击中切换武器，一击将它们全部引爆。用 60 把武器构筑流派，在一个相连的地下世界中挑战 15 位首领。倒下时，手中的武器会留在原地。">
+<meta property="og:title" content="ECHOBOUND — 媒体资料包">
+<meta property="og:description" content="叠加异常状态，然后引爆。">
+<meta property="og:image" content="files/art/header_capsule.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#10161e;--ink:#0a0e16;--card:#161e29;--line:#26303e;--text:#e6ebf0;--dim:#9aa6b4;--teal:#4fd1be;--teal-l:#beffef;--gold:#ffd678}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.75 "Noto Sans JP","Noto Sans SC",system-ui,sans-serif}
+a{color:var(--teal-l)}img{display:block;max-width:100%;height:auto}
+.hero{position:relative;min-height:440px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:48px 16px;
+ background:linear-gradient(180deg,rgba(16,22,30,.15),var(--bg) 96%),url(thumbs/library_hero.webp) center/cover;image-rendering:pixelated}
+.hero img.logo{width:min(620px,92vw);image-rendering:auto}
+.tag{font-family:"DotGothic16",monospace;font-size:clamp(20px,3.4vw,30px);color:var(--teal-l);margin:4px 0 22px;text-align:center;text-shadow:0 2px 12px #000}
+.langs{position:absolute;top:14px;right:16px;display:flex;gap:6px}
+.langs a{padding:3px 10px;border:1px solid var(--line);border-radius:999px;background:rgba(10,14,22,.7);text-decoration:none;font-size:14px;color:var(--dim)}
+.langs a.on{color:var(--ink);background:var(--teal);border-color:var(--teal)}
+.btn{display:inline-block;padding:12px 26px;border-radius:8px;background:var(--teal);color:var(--ink);font-weight:700;text-decoration:none}
+.btn small{font-weight:400;opacity:.75}
+nav{position:sticky;top:0;z-index:5;background:rgba(16,22,30,.94);border-bottom:1px solid var(--line);overflow-x:auto;white-space:nowrap}
+nav div{max-width:1080px;margin:0 auto;padding:0 8px}nav a{display:inline-block;padding:11px 10px;color:var(--dim);text-decoration:none;font-size:14px}
+nav a:hover{color:var(--teal-l)}
+main{max-width:1080px;margin:0 auto;padding:8px 16px 64px}
+section{padding-top:40px}
+h2{font-family:"Dela Gothic One",sans-serif;font-weight:400;font-size:24px;margin:0 0 16px;color:var(--teal-l);letter-spacing:.02em}
+h3{font-size:17px;margin:28px 0 12px;color:var(--teal)}
+.facts{display:grid;grid-template-columns:minmax(90px,max-content) 1fr;gap:0;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.facts dt,.facts dd{margin:0;padding:10px 14px;border-bottom:1px solid var(--line)}
+.facts dt{background:var(--card);color:var(--dim);font-size:14px}
+.facts dt:nth-last-of-type(1),.facts dd:last-child{border-bottom:0}
+.lead{font-size:18px}
+.feats{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px;padding:0;list-style:none;margin:0}
+.feats li{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--teal);border-radius:8px;padding:14px 16px}
+.feats b{display:block;color:var(--gold);margin-bottom:4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.grid a{display:block;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--ink)}
+.grid a:hover{border-color:var(--teal)}
+.pix img{image-rendering:pixelated}
+.art figure{margin:0}.art figcaption{font-size:13px;color:var(--dim);padding:6px 2px 0}
+.art .checker{background:repeating-conic-gradient(#1c2532 0 25%,#141b25 0 50%) 0 0/20px 20px}
+.note{color:var(--dim);font-size:14px;margin:-6px 0 14px}
+.ai p{max-width:820px}
+.mail{font-size:20px;font-weight:700}
+.links{display:flex;flex-wrap:wrap;gap:8px;padding:0;list-style:none}
+.links li{border:1px solid var(--line);border-radius:999px;padding:4px 14px;font-size:14px}.links span{color:var(--dim)}
+footer{border-top:1px solid var(--line);color:var(--dim);font-size:13px;text-align:center;padding:22px 16px}
+/* 宣伝用のフォント (Dela Gothic One、DotGothic16) は簡体字が欠けるので、中国語のページでは使わない */
+:lang(zh-Hans) h2,:lang(zh-Hans) .tag{font-family:"Noto Sans SC",system-ui,sans-serif;font-weight:900}
+@media (max-width:600px){.facts{grid-template-columns:1fr}.facts dt{border-bottom:0;padding-bottom:2px}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="langs"><a href="index.html" class="" lang="en">English</a><a href="ja.html" class="" lang="ja">日本語</a><a href="zh.html" class="on" lang="zh-Hans">简体中文</a></div>
+<img class="logo" src="thumbs/logo_top.webp" alt="ECHOBOUND">
+<p class="tag">叠加异常状态，然后引爆。</p>
+<a class="btn" href="ECHOBOUND_presskit.zip" download>下载全部资料 (ZIP) <small>15 MB</small></a>
+</header>
+<nav><div><a href="#facts">概况</a><a href="#about">简介</a><a href="#features">特色</a><a href="#screenshots">截图</a><a href="#art">主视觉与标志</a><a href="#ai">AI 的使用</a><a href="#contact">联系方式</a></div></nav>
+<main>
+<section id="facts"><h2>概况</h2><dl class="facts"><dt>开发</dt><dd>Tai Studio（日本独立开发者）</dd><dt>发售</dt><dd>2027 年（Steam）。试玩版计划参加 2027 年 2 月的 Steam 新品节</dd><dt>平台</dt><dd>Windows、Linux（Steam）。发售后计划推出 Android 与 iOS 版</dd><dt>价格</dt><dd>待定</dd><dt>语言</dt><dd>简体中文、英语、日语</dd><dt>类型</dt><dd>2D 像素动作、流派构筑、魂系</dd><dt>引擎</dt><dd>Godot 4.6</dd></dl></section>
+<section id="about"><h2>简介</h2><p class="lead">叠加异常状态，然后引爆。在敌人身上叠加灼烧、冻结、感电、出血与刻印，在连击中切换武器，一击将它们全部引爆。用 60 把武器构筑流派，在一个相连的地下世界中挑战 15 位首领。倒下时，手中的武器会留在原地。</p>
+<h3>宣传视频</h3><p class="note">将随商店页面一同发布（2026 年 11 月）。</p></section>
+<section id="features"><h2>特色</h2><ul class="feats"><li><b>叠加，然后引爆</b>每把武器施加的异常状态都不同。用荆棘之鞭使敌人出血，用余烬之剑点燃，用冰柱短剑冻结。再用能引爆的武器打出终结一击——一切同时炸开。火焰蔓延，寒冰碎裂，雷光奔走。</li><li><b>三把武器，一套连击</b>随身携带三把武器，随时切换，连击不中断。将施加状态的武器与引爆的武器搭配起来。</li><li><b>自由构筑</b>60 把武器（剑、快攻、重武器、长柄、镰、杖），12 种防具，39 种饰品。有些异常状态之间，还藏着游戏不会告诉你的组合。</li><li><b>一个相连的世界</b>从醒来的牢狱到地面的光，13 个地区连成一张地图。隐藏房间、陷阱房间，以及守护首领之间的哨兵。</li><li><b>倒下，就会掉落</b>倒下时，除初始之剑外的武器都会留在原地。在据点醒来，再回去拾取。</li><li><b>15 位首领</b>看破前兆，击溃架势，用引爆将其削倒。</li><li><b>更多内容</b>周目（敌人更强，稀有武器更易出现），26 块记忆碎片与真结局，首领重战与记录，成就。救出地下的居民，让据点成长起来。</li></ul></section>
+<section id="screenshots"><h2>截图</h2><p class="note">1920×1080 PNG，均为游戏原始画面（无加工、无文字叠加）。点击可查看原图。</p><div class="grid pix"><a href="files/screenshots/zh/01_dragon_detonation.png" target="_blank"><img src="thumbs/zh/01_dragon_detonation.webp" loading="lazy" width="960" height="540" alt="ECHOBOUND screenshot 1"></a><a href="files/screenshots/zh/02_fire_chain.png" target="_blank"><img src="thumbs/zh/02_fire_chain.webp" loading="lazy" width="960" height="540" alt="ECHOBOUND screenshot 2"></a><a href="files/screenshots/zh/03_veil_barrage.png" target="_blank"><img src="thumbs/zh/03_veil_barrage.webp" loading="lazy" width="960" height="540" alt="ECHOBOUND screenshot 3"></a><a href="files/screenshots/zh/04_thunder_chain.png" target="_blank"><img src="thumbs/zh/04_thunder_chain.webp" loading="lazy" width="960" height="540" alt="ECHOBOUND screenshot 4"></a><a href="files/screenshots/zh/05_double_detonation.png" target="_blank"><img src="thumbs/zh/05_double_detonation.webp" loading="lazy" width="960" height="540" alt="ECHOBOUND screenshot 5"></a><a href="files/screenshots/zh/06_nemurine_boiling_blood.png" target="_blank"><img src="thumbs/zh/06_nemurine_boiling_blood.webp" loading="lazy" width="960" height="540" alt="ECHOBOUND screenshot 6"></a><a href="files/screenshots/zh/07_mizuchi.png" target="_blank"><img src="thumbs/zh/07_mizuchi.webp" loading="lazy" width="960" height="540" alt="ECHOBOUND screenshot 7"></a><a href="files/screenshots/zh/08_gravaan.png" target="_blank"><img src="thumbs/zh/08_gravaan.webp" loading="lazy" width="960" height="540" alt="ECHOBOUND screenshot 8"></a><a href="files/screenshots/zh/09_world_map.png" target="_blank"><img src="thumbs/zh/09_world_map.webp" loading="lazy" width="960" height="540" alt="ECHOBOUND screenshot 9"></a></div>
+<h3>动图</h3><div class="grid pix"><a href="files/gifs/fire_chain.gif" target="_blank"><img src="files/gifs/fire_chain.gif" loading="lazy" alt="ECHOBOUND gameplay GIF"></a><a href="files/gifs/double_detonation.gif" target="_blank"><img src="files/gifs/double_detonation.gif" loading="lazy" alt="ECHOBOUND gameplay GIF"></a><a href="files/gifs/thunder_chain.gif" target="_blank"><img src="files/gifs/thunder_chain.gif" loading="lazy" alt="ECHOBOUND gameplay GIF"></a><a href="files/gifs/dragon.gif" target="_blank"><img src="files/gifs/dragon.gif" loading="lazy" alt="ECHOBOUND gameplay GIF"></a></div></section>
+<section id="art"><h2>主视觉与标志</h2><p class="note">介绍 ECHOBOUND 的文章与视频可自由使用。请勿裁切标志或修改图像。</p><div class="grid art pix"><figure><a href="files/art/main_capsule.png" target="_blank" class=""><img src="thumbs/main_capsule.webp" loading="lazy" alt="主胶囊图 (1232×706)"></a><figcaption>主胶囊图 (1232×706)</figcaption></figure><figure><a href="files/art/header_capsule.png" target="_blank" class=""><img src="thumbs/header_capsule.webp" loading="lazy" alt="页眉图 (920×430)"></a><figcaption>页眉图 (920×430)</figcaption></figure><figure><a href="files/art/library_hero.png" target="_blank" class=""><img src="thumbs/library_hero.webp" loading="lazy" alt="横幅主视觉，无文字 (3840×1240)"></a><figcaption>横幅主视觉，无文字 (3840×1240)</figcaption></figure><figure><a href="files/art/vertical_capsule.png" target="_blank" class=""><img src="thumbs/vertical_capsule.webp" loading="lazy" alt="竖版 (748×896)"></a><figcaption>竖版 (748×896)</figcaption></figure><figure><a href="files/art/library_capsule.png" target="_blank" class=""><img src="thumbs/library_capsule.webp" loading="lazy" alt="纵向 (600×900)"></a><figcaption>纵向 (600×900)</figcaption></figure><figure><a href="files/art/library_logo.png" target="_blank" class="checker"><img src="thumbs/library_logo.webp" loading="lazy" alt="标志，透明背景 (1280×720)"></a><figcaption>标志，透明背景 (1280×720)</figcaption></figure></div></section>
+<section id="ai" class="ai"><h2>AI 的使用</h2><p>ECHOBOUND 的开发全面使用了 AI（Claude Code）。代码、游戏内文本及其翻译，以及绘制像素画、合成声音的程序，均由 AI 编写。</p><p>美术、音效与音乐并非由图像或音乐生成模型输出，而是由这些程序按照规则制作。游戏的企划、规格以及内容取舍，均由作者决定。</p></section>
+<section id="contact"><h2>联系方式</h2><p>媒体、主播与鉴赏家：可提供试玩版（发售后为正式版）的激活码。欢迎使用英语或日语联系。</p>
+<p class="mail" id="mail" data-u="zhongcund19" data-d="gmail.com">zhongcund19 [at] gmail.com</p>
+<h3>链接</h3><ul class="links"><li>Steam <span>(即将公开)</span></li><li><a href="https://www.tiktok.com/@echobound_game">TikTok</a></li><li><a href="https://www.youtube.com/@echobound_game">YouTube</a></li><li><a href="https://x.com/echobound_game">X</a></li></ul>
+<p class="note">本页所有内容均可自由用于介绍 ECHOBOUND 的文章、视频与直播。欢迎将游戏视频与直播用于盈利。</p></section>
+</main>
+<footer>ECHOBOUND © 2026 Tai Studio</footer>
+<script>
+(function(){var m=document.getElementById("mail");var a=m.dataset.u+"@"+m.dataset.d;
+m.innerHTML='<a href="mailto:'+a+'?subject=ECHOBOUND">'+a+'</a>';})();
+</script>
+</body>
+</html>
